@@ -27,6 +27,19 @@ header{
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
+    overflow: scroll;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
 }
 
 h4{
